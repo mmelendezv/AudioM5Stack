@@ -13,16 +13,16 @@ Características:
  * Soporta hasta 32GB microSD 
  * Para desarrollo de Arduino/PlatforIO/UiFlow1/UiFlow2
 
-Para Cardputer se requiere intstalar el IDE de Arduino o PlatformIO (cualquiera de las dos plataformas recomendadas). Con ello, este es el procedimiento:
-1. Instalalar IDE de Arduino o PlatformIO
-2. Agregar la placa de M5Stack board
-Tools → Board Manager → Search "M5Stack"
-Install M5Stack by M5Stack
-Install libraries:
-M5Unified
-M5GFX
-ESP8266Audio
-Open src/audio_player_unit.ino
-Select board: M5Stack Cardputer
+Ya instalado el hardware en la Cardputer, se requiere lo siguiente
+* Agregar los componentes:
+   M5Unified
+   M5GFX
+   M5Unit-AudioPlayer: unit_audioplayer.cpp, unit_audioplayer.hpp
+* Inicializar la unidad de audio con audioplayer.begin()
+
+El codigo minimo para reproducir es el siguiente:
+
+
 Click Upload ➡️
+
 
