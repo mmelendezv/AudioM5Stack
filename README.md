@@ -14,8 +14,8 @@ Características:
  * Para desarrollo de Arduino/PlatforIO/UiFlow1/UiFlow2
 
 Para Cardputer se requiere intstalar el IDE de Arduino o PlatformIO (cualquiera de las dos plataformas recomendadas). Con ello, este es el procedimiento:
-Install Arduino IDE
-Add M5Stack board support:
+1. Instalalar IDE de Arduino o PlatformIO
+2. Agregar la placa de M5Stack board
 Tools → Board Manager → Search "M5Stack"
 Install M5Stack by M5Stack
 Install libraries:
