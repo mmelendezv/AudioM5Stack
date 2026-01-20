@@ -1,6 +1,8 @@
 # AudioM5Stack
 Modulo de Audio para M5Stack para Cardputer
 
+![20260108_205630](https://github.com/user-attachments/assets/0860cb92-1396-4d51-bdca-b4515894ec18)
+
 La unidad de AudioPlayer permite reproducir MP3 a través del decodificador de audio N9301, además cuenta con una ranura para tarjeta microSD.. La señal de audio se emite a través de un conector de 3.5 mm, lo que proporciona una salida de audio nítida. 
 Esta unidad es apta para la Cardputer de M5Stack a través del conector I2C Grove.
 
