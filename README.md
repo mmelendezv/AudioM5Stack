@@ -39,6 +39,7 @@ void setup()
     M5.Lcd.setTextFont(&fonts::DejaVu18);
     M5.Lcd.setTextColor(TFT_BLACK);
     M5.Display.drawString("Unidad AudioPlayer Demo", 0, 0);
+
     int8_t port_a_pin1 = -1, port_a_pin2 = -1;
     port_a_pin1 = M5.getPin(m5::pin_name_t::port_a_pin1);
     port_a_pin2 = M5.getPin(m5::pin_name_t::port_a_pin2);
@@ -54,6 +55,7 @@ void setup()
     M5.Display.drawString("Audio Num:1", 0, 80);
     audioplayer.setVolume(25);
 }
+
 void loop()
 {
     static uint8_t lastPlayStatus = 255;
@@ -81,12 +83,14 @@ void loop()
         M5.Display.drawString("Play Status:" + playStatusStr, 0, 40);
         lastPlayStatus = playStatus;
     }
+
     if (volume != lastVolume) {
         M5.Display.fillRect(0, 120, 320, 20, WHITE);
         M5.Display.drawString("Volume:" + String(volume), 0, 120);
         lastVolume = volume;
     }
-    if (audioNum != lastAudioNum && audioNum != AUDIO_PLAYER_STATUS_ERROR) {
+
+   if (audioNum != lastAudioNum && audioNum != AUDIO_PLAYER_STATUS_ERROR) {
         M5.Display.fillRect(0, 80, 320, 20, WHITE);
         M5.Display.drawString("Audio Num:" + String(audioNum), 0, 80);
         lastAudioNum = audioNum;
