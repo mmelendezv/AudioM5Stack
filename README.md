@@ -15,6 +15,8 @@ Características:
  * Soporta hasta 32GB microSD 
  * Para desarrollo de Arduino/PlatforIO/UiFlow1/UiFlow2
 
+
+
 Ya instalado el hardware en la Cardputer, se requiere lo siguiente
 * Agregar los componentes:
    M5Unified
@@ -101,6 +103,9 @@ void loop()
 Algo mas elaborado y llamativo es la siguiente aplicacion 
 
 https://github.com/AndyAiCardputer/unit_audio-player-cardputer
+
+El codigo de la libreria esta en git:
+https://github.com/m5stack/M5Unit-AudioPlayer
 
 
 
