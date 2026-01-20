@@ -96,6 +96,5 @@ Algo mas elaborado y llamativo es la siguiente aplicacion
 
 https://github.com/AndyAiCardputer/unit_audio-player-cardputer
 
-Click Upload ➡️
 
 
